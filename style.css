@@ -1,5 +1,6 @@
 * {
     font-family:'Inter';
+    
 }
 
 .header-head {
@@ -65,12 +66,13 @@
     font-weight: 400;
     padding: 12px;
     width: 100%;
-    font-size: 48px;
+    font-size: 40px;
     justify-content: center;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     gap: 24px;
+    
+
 }
 
 .all-books div:nth-child(3) {
@@ -80,16 +82,18 @@
 .books-section {
     background-color: #2A2C2E;
     margin-top: 40px;
-    width:auto
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
 }
 
 .books-container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    width: 898px;
-    gap: 8px;
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 20px;
-    margin: 0 auto;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
 }
 
 .box {
@@ -98,8 +102,8 @@
     background-color: #fff;
     border: solid 1px;
     border-radius: 20px;
-
-    
+    align-self: center;
+    justify-self: center;
 }
 
 .card-container {
@@ -226,11 +230,14 @@
         gap: 16px
     }
 
+    .books-section {
+        
+    }
 
     .books-container {
         grid-template-columns: repeat(1, 294px);
         justify-content: center;
-    
+        align-items: center;
     }
 
     .lower-footer {
