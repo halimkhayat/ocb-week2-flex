@@ -78,6 +78,10 @@
     color: black
 }
 
+.all-books div {
+    white-space: nowrap;
+}
+
 .books-section {
     background-color: #2A2C2E;
     margin-top: 40px;
