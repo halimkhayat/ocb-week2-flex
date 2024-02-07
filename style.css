@@ -227,6 +227,13 @@ body {
     justify-content: space-between;
 }
 
+.to-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 20px
+}
 .footer-details {
     display:flex;
     gap: 16px;
@@ -264,4 +271,6 @@ body {
         flex-direction: row;
         justify-content: center;
     }
+
+    
 }
