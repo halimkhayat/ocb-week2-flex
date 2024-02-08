@@ -14,79 +14,87 @@
     <div class="header">
         <img src="./assets/logo.svg">
     </div>
-    <div class="form-container">
-        <h1>REGISTER YOUR BOOK</h1>
-        <div class="form-section">
-            <div style="display: flex;">
-                <h2>Book Details</h2>
-            </div>
-            <form class="form-main" method="post" action="https://httpbin.org/post">
-                <div class="form-detail">
-                    <label class="label" for="title">Title</label>
-                    <input class="input-data" type="text" name="title" placeholder="Your book title here. E.g. Harry Potter and The Fantastic Bootcamp">
-                </div>
-                <div class="form-detail">
-                    <label class="label" for="genre">Genre</label>
-                    <input class="input-data" type="text" name="genre" placeholder="Your book genre here. E.g. Fantasy">
-                </div>
-                <div class="form-detail">
-                    <label class="label" for="author">Author</label>
-                    <input class="input-data" type="text" name="author" placeholder="Your book author here. E.g. J. K. Rowling">
-                </div>
-                <div class="form-detail">
-                    <label class="label" for="publisher">Publisher</label>
-                    <input class="input-data" type="text" name="publisher" placeholder="Publisher of the book. E.g. Pustaka Melang">
-                </div>
-                <div class="form-detail">
-                    <label class="label" for="year-published">Year Published</label>
-                    <input class="input-data" type="text" name="year-published" placeholder="1994">
-                </div>
-                <div class="form-detail">
-                    <label class="label" for="availability">Availability</label>
-                    <label>
-                        <input class="radio-data" type="radio" name="availability">
-                        Online
-                    </label>
-                    <label>
-                        <input class="radio-data" type="radio" name="availability">
-                        In Store
-                    </label>
-                    <label>
-                        <input class="radio-data" type="radio" name="availability">
-                        Online & In Store
-                    </label>
-                    
-                </div>
-                <div class="form-detail">
-                    <label class="label" for="pages">Pages</label>
-                    <input class="input-data" type="text" name="pages" placeholder="514">
-                </div>
-                <div class="form-detail">
-                    <label class="label" for="language">Language</label>
-                    <input class="input-data" type="text" name="language" placeholder="Language used in the book. E.g. English">
-                </div>
+    <div class="body-container">
+        <div class="form-container">
+            <h1>REGISTER YOUR BOOK</h1>
+            <div class="form-section">
                 <div style="display: flex;">
-                    <h2>Registree Details</h2>
+                    <h2>Book Details</h2>
                 </div>
-                <div class="form-detail">
-                    <label class="label" for="name">Name</label>
-                    <input class="input-data" type="text" name="name" placeholder="Your name. e.g. Halim Khayat">
-                </div>
-                <div class="form-detail">
-                    <label class="label" for="email">Email</label>
-                    <input class="input-data" type="email" name="email" placeholder="Your email. e.g. halim@email.com">
-                </div>
-                <div class="form-checkbox">
-                    <input class="" type="checkbox" name="agreement">
-                    <label class="label checkbox-label" for="agreement">I hereby agree to follow all rules and confirmed that all details are
-                        accurate</label>
-                </div>
-                <div>
-                    <input class="form-submit" type="submit" name="submit" value="SAVE YOUR BOOK">
-                </div>
-            </form>
+                <form class="form-main" method="post" action="https://httpbin.org/post">
+                    <div class="form-detail">
+                        <label class="label" for="title">Title</label>
+                        <input class="input-data" type="text" name="title"
+                            placeholder="Your book title here. E.g. Harry Potter and The Fantastic Bootcamp">
+                    </div>
+                    <div class="form-detail">
+                        <label class="label" for="genre">Genre</label>
+                        <input class="input-data" type="text" name="genre" placeholder="Your book genre here. E.g. Fantasy">
+                    </div>
+                    <div class="form-detail">
+                        <label class="label" for="author">Author</label>
+                        <input class="input-data" type="text" name="author"
+                            placeholder="Your book author here. E.g. J. K. Rowling">
+                    </div>
+                    <div class="form-detail">
+                        <label class="label" for="publisher">Publisher</label>
+                        <input class="input-data" type="text" name="publisher"
+                            placeholder="Publisher of the book. E.g. Pustaka Melang">
+                    </div>
+                    <div class="form-detail">
+                        <label class="label" for="year-published">Year Published</label>
+                        <input class="input-data" type="text" name="year-published" placeholder="1994">
+                    </div>
+                    <div class="form-detail">
+                        <label class="label" for="availability">Availability</label>
+                        <label>
+                            <input class="radio-data" type="radio" name="availability">
+                            Online
+                        </label>
+                        <label>
+                            <input class="radio-data" type="radio" name="availability">
+                            In Store
+                        </label>
+                        <label>
+                            <input class="radio-data" type="radio" name="availability">
+                            Online & In Store
+                        </label>
+        
+                    </div>
+                    <div class="form-detail">
+                        <label class="label" for="pages">Pages</label>
+                        <input class="input-data" type="text" name="pages" placeholder="514">
+                    </div>
+                    <div class="form-detail">
+                        <label class="label" for="language">Language</label>
+                        <input class="input-data" type="text" name="language"
+                            placeholder="Language used in the book. E.g. English">
+                    </div>
+                    <div style="display: flex;">
+                        <h2>Registree Details</h2>
+                    </div>
+                    <div class="form-detail">
+                        <label class="label" for="name">Name</label>
+                        <input class="input-data" type="text" name="name" placeholder="Your name. e.g. Halim Khayat">
+                    </div>
+                    <div class="form-detail">
+                        <label class="label" for="email">Email</label>
+                        <input class="input-data" type="email" name="email" placeholder="Your email. e.g. halim@email.com">
+                    </div>
+                    <div class="form-checkbox">
+                        <input class="" type="checkbox" name="agreement">
+                        <label class="label checkbox-label" for="agreement">I hereby agree to follow all rules and confirmed
+                            that all details are
+                            accurate</label>
+                    </div>
+                    <div>
+                        <input class="form-submit" type="submit" name="submit" value="SAVE YOUR BOOK">
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
+   
     <footer class="footer-container" style="width: 100%">
         <div class="upper-footer">
             <div>

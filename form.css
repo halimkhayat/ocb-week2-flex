@@ -12,20 +12,27 @@ body, html {
     margin: 20px
 }
 
-.form-container {
+.body-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-start;
     background-color: #2A2C2E;
-    color: white;
     padding: 30px;
     margin: 20px;
     border-radius: 20px;
 }
 
+.form-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+
 .form-container  h1{
     font-weight: 700;
     line-height: 28px;
-    width: 711px;
+
 }
 
 .form-section {
@@ -76,10 +83,25 @@ body, html {
 }
 
 @media (max-width:768px) {
+    .body-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .form-section {
+        width:max-content;
+        display: flex;
+        flex-direction: column;
+    }
+
     .form-container {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        
+
+    }
+
+    .form-container h1 {
+        overflow-wrap:break-word;
 
     }
     .form-detail {
@@ -98,9 +120,15 @@ body, html {
     }
 
     .checkbox-label {
-        white-space: wrap;
+        word-break:break-all;
     }
 
 
+}
+
+@media (max-width:425px) {
+    .input-data {
+        width: 200px
+    }
 }
 
